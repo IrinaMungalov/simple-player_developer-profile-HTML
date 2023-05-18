@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<order>
+
+    <client>
+         <full-name>John Doe</full-name>
+         <contact-phone>+123456789</contact-phone>
+    </client>
+
+    <items>
+         <item>
+            <name>Pizza</name>
+            <quantity>1</quantity>
+            <price>100.00</price>
+         </item>
+         <item>
+            <name>Salad</name>
+            <quantity>2</quantity>
+            <price>50.00</price>
+         </item>
+         <item>
+            <name>Wine</name>
+            <quantity>1</quantity>
+            <price>750.00</price>
+         </item>
+    </items>
+
+    <delivery-info>
+         <address>
+                  <city>London</city>
+                  <street>MainStreet</street>
+                  <house_number>12</house_number>                  
+         </address>
+         <delivery_price>free</delivery_price>
+         <delivery-method>at home</delivery-method>
+         <delivery-time>in the morning</delivery-time>
+    </delivery-info>
+
+</order>
+
+-----------
+
+order
+   |
+   +-- client
+   |       |
+   |       +-- full-name
+   |       |          |
+   |       |          +-- #text: "John Doe"
+   |       |
+   |       +--contact-phone
+   |                     |
+   |                     +-- #text: "+123456789"
+   |
+   |
+   +-- items
+   |        |
+   |        +-- item 
+   |        |       |
+   |        |       +-- name
+   |        |       |       |
+   |        |       |       +-- #text: "Pizza"
+   |        |       |
+   |        |       +-- quantity
+   |        |       |        |
+   |        |       |        +-- #text: "1"
+   |        |       |
+   |        |       +-- price
+   |        |                |
+   |        |                +-- #text: "100.00"
+   |        |
+   |        +-- item
+   |        |       |
+   |        |       +-- name
+   |        |       |       |
+   |        |       |       +-- #text: "Salad"
+   |        |       |
+   |        |       +-- quantity
+   |        |       |        |
+   |        |       |        +-- #text: "2"
+   |        |       |
+   |        |       +-- price
+   |        |                |
+   |        |                +-- #text: "50.00"
+   |        |
+   |        +-- item
+   |        |       |
+   |        |       +-- name
+   |        |       |       |
+   |        |       |       +-- #text: "Wine"
+   |        |       |
+   |        |       +-- quantity
+   |        |       |        |
+   |        |       |        +-- #text: "1"
+   |        |       |
+   |        |       +-- price
+   |        |                |
+   |        |                +-- #text: "750.00"
+   |
+   |
+   +-- delivery-info
+            |
+            +-- delivery-address
+            |               |
+            |               +-- city
+            |               |      |
+            |               |      +-- #text: "London"         
+            |               |
+            |               +-- street
+            |               |       |
+            |               |       +-- #text: "MainStreet"
+            |               |
+            |               +-- house_number
+            |                       |
+            |                       +-- #text: "12"
+            |   
+            +-- delivery_price
+            |         |
+            |         +-- #text: "free"
+            |
+            +-- delivery-method
+            |          |
+            |          +-- #text: "at home"
+            |
+            +-- delivery-time
+                       |
+                       +-- #text: "in the morning"

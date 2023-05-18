@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+
+<birthday-calendar>
+	
+    <birthday>
+		<employee>
+             <full-name>Sidorov Ivan</full-name>
+             <post>director</post>
+		   <date>15.06.1970</date>
+             <gender>male</gender>
+             <age>53</age>
+		   <hobby>likes cars</hobby>
+             <remark>congratulations at 6 pm</remark>
+          </employee>
+
+		<contact>
+			 <phone>+9876543210</phone>
+			 <email>sidorov_ivan@gmail.com</email>
+                <address>
+                    <city>London</city>
+                    <street>Main Street</street>
+                    <house_number>12</house_number>                  
+                </address>
+		</contact>	
+    </birthday>
+	
+    <birthday>
+		<employee>
+             <full-name>Petrova Anna</full-name>
+             <post>secretary</post>
+		   <date>06.04.1988</date>
+             <gender>female</gender>
+             <age>35</age>
+		   <hobby>interior design</hobby>
+             <remark>congratulations on the second day</remark>
+        </employee>
+
+		<contact>
+			 <phone>+9767643210</phone>
+			 <email>petrova_anna@gmail.com</email>
+                <address>
+                   <city>Manchester</city>
+                   <street>Market Street</street>
+                   <house_number>17</house_number>
+                </address>
+		</contact>
+	</birthday>
+   
+    <birthday>
+          <employee>
+		     <full-name>Ivanov Pavel</full-name>
+               <post>architect</post>
+		     <date>19.11.1980</date>
+               <gender>male</gender>
+               <age>43</age>
+		     <hobby>likes fishing</hobby>
+               <remark>congratulations at 7 am</remark>
+          </employee>
+          
+		<contact>
+			  <phone>+9879874120</phone>
+			  <email>ivanov_pavel@gmail.com</email>
+                 <address>
+                    <city>Liverpool</city>
+                    <street>Maple Street</street>
+                    <house_number>15</house_number>
+                 </address>
+		</contact>
+	</birthday>
+
+</birthday_calendar>
